@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Chiron+Hei+HK:wght@300;700&display=swap');
+
 body {
-    font-family: 'IBM Plex Sans', 'Source Sans GB', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align contents to the bottom */
+    min-height: 100vh;
+    margin: 0pt 30pt;
+    font-family: 'IBM Plex Sans', 'Chiron Hei HK', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    margin: 25pt;
     padding: 0;
     color: #1e1e1e;
 }
@@ -10,6 +16,7 @@ body {
 .title {
     font-size: 32px;
     line-height: 1.2;
+    font-weight: 300;
 }
 
 a {
