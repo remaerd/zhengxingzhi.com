@@ -7,14 +7,19 @@ body {
     color: #1e1e1e;
 }
 
+.title {
+    font-size: 32px;
+    line-height: 1.2;
+}
+
 a {
     text-decoration: none; /* Hide underline */
-    color: blue; /* Default blue text */
+    color: black; /* Default blue text */
     transition: background 0.5s ease, -webkit-text-fill-color 0.5s ease; /* Smooth transition */
 }
 
 b {
-    font-weight: 900; /* Changed font weight to black */
+    font-weight: 800; /* Changed font weight to black */
 }
 
 a:hover {
@@ -44,7 +49,7 @@ a:hover {
         text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     }
     100% {
-        text-shadow: 2px 2px 0px, rgba(0, 0, 0, 0.2);
+        text-shadow: 2px 2px 0px, rgba(0, 0, 0, 0.1);
     }
 }
 
